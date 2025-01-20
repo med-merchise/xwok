@@ -1,0 +1,14 @@
+[project]
+name = "xwok"
+version = "0.1.0"
+description = "Multi-tier application example using Docker"
+authors = [ { name = "Medardo Antonio Rodriguez" } ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+xwok = "xwok:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
